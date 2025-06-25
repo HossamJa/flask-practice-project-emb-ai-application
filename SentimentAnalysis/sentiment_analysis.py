@@ -17,5 +17,5 @@ def sentiment_analyzer(text_to_analyse):  # Define a function named sentiment_an
     elif response.status_code == 500:
         label = None
         score = None
-        
+     
     return {"label": label, "score": score}
